@@ -81,4 +81,74 @@ body {
   font-size: 2.6rem;
 }
 .services {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.bulimcha {
+  font-size: 1.8rem;
+  margin-left: 14rem;
+  font-weight: 500;
+  color: #8643dc;
+}
+.bulimcha span {
+  margin: 2rem;
+  padding: 1rem;
+  border-bottom: 2px solid;
+}
+.section_name {
+  margin-left: 14rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.services_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 4rem;
+  padding: 0 4rem;
+  margin: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  gap: 4rem;
+}
+.card_name {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 2.2rem;
+}
+.card_names {
+  font-weight: 500;
+}
+.card_about {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+.portfolio {
+  margin-top: 4rem;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+.project {
+  font-size: 2.4rem;
+}
+.my_works {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: space-around;
 }
